@@ -14,6 +14,7 @@ header
 	margin-right: 25px;
 	font-family: amboy-black, sans-serif;
 	color: white;
+	margin-top: 10px
 }
 
 .footer {
@@ -24,25 +25,38 @@ header
   color: white;
   text-align: center;
   background-color: #FFFFFF;
-  height: 10%;
+  height: 150px;
 }
 
 .hero{
 	display: flex;
 	flex-wrap: wrap;
+	width: 100%;
+	justify-content: center;
+	margin-bottom: 150px;
 }
 .card-description
 {
-	margin-top: 25px;
+	margin-top: 20px;
 	width: 25%;
+}
+.line{
+	border: 3px solid black;
+}
+.social-links{
+	margin: 0px 0px 20px 0px;
 }
 @media screen and (max-width: 600px)
 {
 	.card-description{
 		width: 75%;
-		margin-top: 0px;
+		margin-bottom: 100px;
+		margin-top: 10px;
 	}
 	.hero{
 		justify-content: center;
 	}
+	
+	
+	
 }

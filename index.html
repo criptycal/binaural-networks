@@ -3,14 +3,61 @@
 <head>
 	<meta charset="utf-8">
 	<title>Binaural Networks</title>
+	<link rel="stylesheet" href="TopBar/TopBar.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="index.css">
-	<link rel="stylesheet" href="TopBar/TopBar.css">
+	
 	<link rel="stylesheet" href="https://use.typekit.net/ygl4cdi.css">
 	<link rel="stylesheet" href="product-card/p-card.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="sticky-social-media/stickySocial.css">
-	<!--<link rel="stylesheet" href="sidebar/sidebar.css">-->
+	<script>
+		function myFunction() {
+		  var x = document.getElementById("myTopnav");
+		  if (x.className === "topnav") {
+			x.className += " responsive";
+		  } else {
+			x.className = "topnav";
+		  }
+		}
+	</script>
+	<style>
+		* Style all font awesome icons */
+		.fa {
+		  font-size: 30px;
+		  text-align: center;
+		  text-decoration: none;
+		}
+
+		/* Add a hover effect if you want */
+		.fa:hover {
+		  opacity: 0.7;
+		}
+
+		/* Set a specific color for each brand */
+
+		/* Facebook */
+		.fa-facebook {
+		  padding: 15px;
+		  width: 15px;
+		  background: #4CAF50;
+		  color: white;
+		  
+		}
+
+		/* Twitter */
+		.fa-twitter {
+		  padding: 15px;
+		  width: 15px;
+		  background: #4CAF50;
+		  color: white;
+		}
+		.fa-youtube{
+		  padding: 15px;
+		  width: 15px;
+		  background: #4CAF50;
+		  color: white;
+		}
+		
+	</style>
 </head>
 
 <body>	  
@@ -27,7 +74,7 @@
 		  </a>		
 		</div>
 		<div class="logotype">
-			<p class="logotype-title">BINAURAL NETWORK</p>
+			<img src="logo.png" class="logotype-title" width="150px" height="25px" alt="logo">
 		</div>
 	</header>
 	<div class="hero">
@@ -41,6 +88,7 @@
 		<div class="card-description">
 			<h1>El Poder de los Ángeles</h1>
 			<p class="card-product-p">Existe un mundo paralelo a nuestros sentidos, donde existen seres de inimaginable poder, te invito a conocer a los ángeles, que anuncian al mundo sus verdades.</p>
+			<div class="line"></div>
 		</div>
 	</div>
 	
@@ -51,16 +99,7 @@
 		<a href="#" class="fa fa-twitter"></a>
 	</div>
 	
-	<script>
-		function myFunction() {
-		  var x = document.getElementById("myTopnav");
-		  if (x.className === "topnav") {
-			x.className += " responsive";
-		  } else {
-			x.className = "topnav";
-		  }
-		}
-	</script>
+	
 	
 </body>
 </html>

@@ -1,5 +1,5 @@
 /* Style all font awesome icons */
-.fa {
+.la {
   padding: 15px;
   font-size: 30px;
   width: 25px;
@@ -8,24 +8,24 @@
 }
 
 /* Add a hover effect if you want */
-.fa:hover {
+.la:hover {
   opacity: 0.7;
 }
 
 /* Set a specific color for each brand */
 
 /* Facebook */
-.fa-facebook {
+.la-facebook {
   background: #4CAF3C;
   color: white;
 }
 
 /* Twitter */
-.fa-twitter {
+.la-twitter {
   background: #4CAF3C;
   color: white;
 }
-.fa-youtube{
+.la-youtube{
 	color: white;
 	background-color: #4CAF3C;
 }
